@@ -25,9 +25,9 @@ class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
         //Called when the scene has been displayed
-        createSquares(name: one)
-        createSquares(name: two)
-        createSquares(name: three)
+        createSquares(name: "one")
+        createSquares(name: "two")
+        createSquares(name: "three")
         //TODO: Create three squares with the names one,two,three
         
         //Setup the scoreLabel
